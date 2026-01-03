@@ -1,0 +1,32 @@
+Detective, uno de los miembros de nuestro equipo siguió a nuestro objetivo, Vincent el ladrón, hasta un almacén oculto. 
+Creemos que allí es donde está guardando los bienes robados. La entrada a este almacén está protegida por una cerradura digital
+de combinación. Sin embargo, nuestro informante no está completamente seguro del PIN que vio introducir a Vincent.
+
+El teclado tiene la siguiente disposición:
+┌───┬───┬───┐
+│ 1 │ 2 │ 3 │
+├───┼───┼───┤
+│ 4 │ 5 │ 6 │
+├───┼───┼───┤
+│ 7 │ 8 │ 9 │
+└───┼───┼───┘
+    │ 0 │
+    └───┘
+
+Anotó el PIN 1357, pero también dijo que es posible que cada uno de los dígitos que vio pudiera ser en realidad otro dígito
+adyacente (horizontal o verticalmente, pero no en diagonal). Por ejemplo, en lugar del 1, también podría haber sido el 2 o el 4.
+
+Y en lugar del 5, también podría haber sido el 2, 4, 6 u 8.
+
+También mencionó que conoce este tipo de cerradura. Puedes introducir una cantidad ilimitada de PINs incorrectos, pero nunca se
+bloquea el sistema ni suena la alarma. Por eso podemos probar todas las variaciones posibles.
+
+Todas las posibles en el sentido del PIN observado en sí y todas las variaciones considerando los dígitos adyacentes.
+
+¿Puedes ayudarnos a encontrar todas esas variaciones? El arreglo debe contener todos los PINs posibles ordenados en valor ascendente.
+
+Detective, ¡contamos contigo!
+
+Entrada: PIN en formato de cadena
+
+Salida: Arreglo de cadenas (el PIN observado debe incluirse en el arreglo)
